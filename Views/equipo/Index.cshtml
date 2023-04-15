@@ -1,0 +1,92 @@
+﻿@{
+    List<TipoEquipos> listadoEquipos = ViewBag.listadoEquipos;
+    List<marcas> listadoMarcas = ViewBag.listadoMarcas;
+
+}
+
+<h1>Mantenimiento de equipos</h1>
+<div class="container">
+    <form method="post">
+
+        <!--  NOMBRE DEL EQUIPO -->
+        <div class="form-group row">
+            <div class="col-sm-2">
+                <label for="nombre">Nombre</label>
+            </div>
+            <div class="col-sm-4">
+                @Html.TextBox("nombre" , "" , new {@class="form-control"})
+            </div>
+        </div>
+
+        <!--  DESRIPCION DEL EQUIPO -->
+        <div class="form-group row mt-4">
+            <div class="col-sm-2">
+                <label for="descripcion">Descripción</label>
+            </div>
+            <div class="col-sm-4">
+                @Html.TextArea("descripcion" , "" , new {@class="form-control"})
+            </div>
+        </div>
+
+        <!--  TIPO DE EQUIPOS -->
+        <div class="form-group row mt-4">
+            <div class="col-sm-2">
+                @Html.Label("tipoEquipos" , "Tipo de equipos")
+            </div>
+            <div class="col-sm-4">
+                @Html.DropDownList("listado_equipo_id" , new SelectList(listadoEquipos , "id_tipo_equipo" , "descripcion")  , "Seleccionar un tipo", new {@class="form-control"} )
+            </div>
+        </div>
+
+        <!--  MARCAS -->
+        <div class="form-group row mt-4">
+            <div class="col-sm-2">
+                @Html.Label("marca" , "Marca")
+            </div>
+            <div class="col-sm-4">
+                @Html.DropDownList("marca_id" , new SelectList(listadoMarcas , "id_marcas" , "nombre_marca")  , "Seleccionar una marca", new {@class="form-control"} )
+            </div>
+        </div>
+
+        <!--  MODELO -->
+        <div class="form-group row mt-4">
+            <div class="col-sm-2">
+                @Html.Label("modelo" , "Modelo ")
+            </div>
+            <div class="col-sm-4">
+                @Html.TextBox("modelo" , "" , new {@class="form-control"})
+            </div>
+        </div>
+
+        <!--  AÑO DE COMPRA -->
+        <div class="form-group row mt-4">
+            <div class="col-sm-2">
+                @Html.Label("modelo" , "Modelo ")
+            </div>
+            <div class="col-sm-4">
+                @Html.TextBox("anio_compra" , "" , new {@class="form-control"})
+            </div>
+        </div>
+
+        <!--  COSTO -->
+        <div class="form-group row mt-4">
+            <div class="col-sm-2">
+                @Html.Label("costo" , "Costo")
+            </div>
+            <div class="col-sm-4">
+                @Html.TextBox("costo" , "" , new {@class="form-control"})
+            </div>
+        </div>
+
+        <!--  Vida util -->
+        <div class="form-group row mt-4">
+            <div class="col-sm-2">
+                @Html.Label("vidaUtil" , "Vida util")
+            </div>
+            <div class="col-sm-4">
+                @Html.TextBox("vida_util" , "" , new {@class="form-control"})
+            </div>
+        </div>
+
+    </form>
+</div>

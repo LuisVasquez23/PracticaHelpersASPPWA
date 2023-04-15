@@ -10515,11 +10515,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luis\\Desktop\\WebMVC-PWA\\WebMVC-PWA.csproj",
+      "projectUniqueName": "C:\\Users\\luis\\Desktop\\ASP UNICAES\\WebMVC-PWA\\WebMVC-PWA.csproj",
       "projectName": "WebMVC-PWA",
-      "projectPath": "C:\\Users\\luis\\Desktop\\WebMVC-PWA\\WebMVC-PWA.csproj",
+      "projectPath": "C:\\Users\\luis\\Desktop\\ASP UNICAES\\WebMVC-PWA\\WebMVC-PWA.csproj",
       "packagesPath": "C:\\Users\\luis\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luis\\Desktop\\WebMVC-PWA\\obj\\",
+      "outputPath": "C:\\Users\\luis\\Desktop\\ASP UNICAES\\WebMVC-PWA\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\luis\\AppData\\Roaming\\NuGet\\NuGet.Config",

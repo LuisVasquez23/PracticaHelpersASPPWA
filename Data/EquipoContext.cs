@@ -12,7 +12,8 @@ namespace WebMVC_PWA.Data
         }
 
 
-        public DbSet<marcas> marcas { get; set; }   
-
+        public DbSet<marcas> marcas { get; set; }
+        public DbSet<Equipo> Equipos { get; set; }
+        public DbSet<TipoEquipos> tipo_equipo { get; set; }
     }
 }

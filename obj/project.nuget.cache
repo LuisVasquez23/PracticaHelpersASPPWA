@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/TuFf2+5BgI6kkgmQ9ctkGHvIpnIBnt3w0HI9veOHr/6TFV0bzkzucrvS84RbBby4qQ/oTuLVUQXVL2vbmQ+vg==",
+  "dgSpecHash": "JTGXxQuWe3B/xzfMApuCDwG+kvhUFhL3w9mkTR67xo/Ut/N4rC+gTL4HTMv4H9Q92lOBBNaS8plmTfH2Gbj2Ew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\luis\\Desktop\\WebMVC-PWA\\WebMVC-PWA.csproj",
+  "projectFilePath": "C:\\Users\\luis\\Desktop\\ASP UNICAES\\WebMVC-PWA\\WebMVC-PWA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\luis\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\luis\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
